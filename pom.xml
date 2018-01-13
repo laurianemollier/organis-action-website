@@ -5,8 +5,14 @@
 	<artifactId>website</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>website Maven Webapp</name>
+	<name>website</name>
 	<url>http://maven.apache.org</url>
+	
+	<!-- 
+		<build>
+        <finalName>${project.name}-${project.version}</finalName>
+  </build> -->
+	
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
@@ -24,7 +30,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
-		<finalName>website</finalName>
-	</build>
 </project>
